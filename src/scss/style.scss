@@ -1,0 +1,12 @@
+$pageColor: red;
+
+input {
+    border: 2px solid $pageColor;
+    color: darkgreen;
+
+    &::placeholder {
+        font-size: 13px;
+        line-height: 16px;
+        color: #B1B1B1;
+    }
+}

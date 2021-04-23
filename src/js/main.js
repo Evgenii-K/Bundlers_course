@@ -1,3 +1,4 @@
+import '../scss/style.scss';
 import { initTamplate, dateCalcTemp, timerTemp } from './template.js';
 import initDateCalc from "./initDateCalc.js";
 import initTimer from "./initTimer.js";

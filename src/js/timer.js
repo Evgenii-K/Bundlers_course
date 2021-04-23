@@ -1,8 +1,9 @@
 import { textError } from './message.js';
+const mp3 = require('../sound/timer.mp3');
 
 // Setup the new Howl.
 const sound = new Howl({
-  src: ['./src/sound/timer.mp3']
+  src: [mp3.default]
 });
 
 export default function timer(time, button) {
